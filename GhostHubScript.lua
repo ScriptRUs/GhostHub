@@ -1,3 +1,12 @@
+--[[
+All Scripting Was Done By - Ryans#3857 (Not Counting Ui Libs)
+Discord Server - https://discord.gg/dZYzEuZE3H
+Join The Server For Future Updates!
+Donations:
+Cash App - $ScriptRUs
+]]--
+
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
