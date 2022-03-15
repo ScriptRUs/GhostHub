@@ -3072,7 +3072,7 @@ function Library:prompt(options)
 
 	local promptTitle = promptContainer:object("TextLabel", {
 		BackgroundTransparency = 1,
-		Size = UDim2.new(1, 0, 0, 20),
+		Size = UDim2.new(3, 0, 0, 26),
 		TextXAlignment = Enum.TextXAlignment.Center,
 		Font = Enum.Font.SourceSansBold,
 		Text = options.Title,
