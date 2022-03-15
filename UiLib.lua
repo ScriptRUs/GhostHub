@@ -3054,7 +3054,7 @@ function Library:prompt(options)
 		Theme = {BackgroundColor3 = "Main"},
 		BackgroundTransparency = 1,
 		Centered = true,
-		Size = UDim2.fromOffset(200, 120)
+		Size = UDim2.fromOffset(400, 240)
 	}):round(6)
 
 	local _promptContainerStroke = promptContainer:object("UIStroke", {
