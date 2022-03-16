@@ -3105,7 +3105,7 @@ function Library:prompt(options)
 	})
 
 	local _gridButtonHolder = buttonHolder:object("UIGridLayout", {
-		CellPadding = UDim2.new(0, 10,0, 5),
+		CellPadding = UDim2.new(0, 5,0, 1),
 		CellSize = UDim2.new(1/count, -10, 1, 0),
 		FillDirection = Enum.FillDirection.Horizontal,
 		HorizontalAlignment = Enum.HorizontalAlignment.Center
