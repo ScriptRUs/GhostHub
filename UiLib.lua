@@ -3054,7 +3054,7 @@ function Library:prompt(options)
 		Theme = {BackgroundColor3 = "Main"},
 		BackgroundTransparency = 1,
 		Centered = true,
-		Size = UDim2.fromOffset(200, 120)
+		Size = UDim2.fromOffset(555, 240)
 	}):round(6)
 
 	local _promptContainerStroke = promptContainer:object("UIStroke", {
@@ -3072,7 +3072,7 @@ function Library:prompt(options)
 
 	local promptTitle = promptContainer:object("TextLabel", {
 		BackgroundTransparency = 1,
-		Size = UDim2.new(1, 0, 0, 20),
+		Size = UDim2.new(3, 0, 0, 26),
 		TextXAlignment = Enum.TextXAlignment.Center,
 		Font = Enum.Font.SourceSansBold,
 		Text = options.Title,
@@ -3101,7 +3101,7 @@ function Library:prompt(options)
 		BackgroundTransparency = 1,
 		AnchorPoint = Vector2.new(0, 1),
 		Position = UDim2.new(0, 0,1, -5),
-		Size = UDim2.new(1, 0,0, 20)
+		Size = UDim2.new(4, 0,0, 10)
 	})
 
 	local _gridButtonHolder = buttonHolder:object("UIGridLayout", {
